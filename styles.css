@@ -1,0 +1,155 @@
+h2 {
+    font-family: "Montserrat";
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: "Montserrat";
+    font-weight: 600;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.container-fluid {
+    padding: 3% 10% 7% 15%;
+}
+
+#header {
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight: 500;
+}
+
+.download-btn {
+    margin: 5% 3% 5% 0;
+}
+
+.title-img {
+    width: 24%;
+    transform: rotate(24deg);
+    position: absolute;
+    right: 20%;
+}
+
+#features {
+    padding: 7% 10.5%;
+    background-color: #fff;
+    position: relative;
+}
+
+.feature-box {
+    padding: 5%;
+}
+
+#feature-b {
+    padding: 5% 1.2%;
+}
+
+.icon {
+    color: #eb6d5d;
+    margin-bottom: 2rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+#testimonials {
+    background-color: #eb6d5d;
+    color: #fff;
+    text-align: center;
+}
+
+.testimonial-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    font-family: "Montserrat";
+    padding: 7% 15%;
+    font-weight: 500;
+}
+
+#press {
+    background-color: #eb6d5d;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
+
+@media(max-width:1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-img {
+        position: static;
+        width: 60%;
+        transform: rotate(0);
+    }
+}
+
+#cta {
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 5% 15%;
+    text-align: center;
+}
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.soc-icon {
+    margin: 10px 10px;
+}
+
+.copyright {
+    padding-top: 20px;
+    font-size: small;
+}
